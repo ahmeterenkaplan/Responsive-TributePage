@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');*{
+   margin: 0;  
+   box-sizing: border-box;
+   font-size: 20px;
+}
+.text-bold{
+   font-weight: bold;
+
+}
+body{
+   margin-top: 50px;
+   margin-bottom: 50px;
+   display: flex;
+   flex-direction:column ;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   width: 100vw;
+   font-family: 'Raleway', sans-serif;
+   background-image:url("https://render.fineartamerica.com/images/rendered/default/print/10/6.5/break/images/artworkimages/medium/3/1966-le-mans-24-pit-stop-ford-gt40-mkii-ken-miles-denny-hulme-yuriy-shevchuk.jpg") ;
+}
+#container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   max-width:1000px;
+   background-color: rgb(43, 50, 65);
+   color: rgb(255, 255, 255);
+   opacity: 0.95;
+}
+
+#title
+{font-size:30px;}
+
+#img-div{
+width: 100%;
+display: block;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#image{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 100%;
+margin: 0 auto;
+}
+ 
+#img-caption{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#tribute-info{
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+   display: block;
+   margin:0 25%;
+   
+}
